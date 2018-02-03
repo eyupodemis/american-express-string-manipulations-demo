@@ -16,13 +16,13 @@ public class NumberMultipleProblem {
 	
 	public static void main(String[] args) {
 		NumberMultipleProblem problem = new NumberMultipleProblem();
-		problem.NumberMultipleProblem();
+		problem.fizzbuzz();
 		problem.printUniqsDupsInList();
 		problem.countChars();
 		problem.processNumbers();
 	}
 	
-	public void NumberMultipleProblem () {
+	public void fizzbuzz () {
 		System.out.println("MultipleProblem");
 		System.out.println("--------------------");
 		IntStream.iterate(1, i -> i + 1).limit(100)
